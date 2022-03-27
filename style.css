@@ -1,0 +1,58 @@
+.jumbotron {
+  padding-top: 2rem;
+  position: relative;
+}
+
+body {
+  background-image: url(z.jpg);
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#text {
+  color: #fff;
+  text-align: center;
+  font-size: 70px;
+  font-weight: bold;
+  font-family: 'Indie Flower', cursive;
+  text-shadow: 2px 2px 5px rgb(121, 164, 225);
+}
+
+.about {
+  margin-top: 230px;
+}
+
+#blog {
+  margin-top: 100px;
+}
+
+#contact {
+  padding-top: 18rem;
+}
+
+.navbar-brand,
+.nav-link {
+  color: white !important;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0);
+}
+
+.nav-link:hover {
+  text-shadow: 0 0 5px rgb(89, 89, 89), 0 0 10px #fff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px;
+}
+
+.nav-link:hover::after {
+  content: '';
+  display: flex;
+  border-bottom: 1px solid #6f5bbc;
+  box-shadow: 0 0 10px #ffffff, 0 0 20px #6f5bbc, 0 0 30px #6f5bbc, 0 0 40px #6f5bbc, 0 0 160px #6f5bbc;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: -8px;
+}
+
+.nav-link {
+  margin-right: 20px;
+  text-shadow: 1px 1px 1px black !important;
+}
